@@ -1,21 +1,56 @@
-# 🗂️ Projekt 1 – Task Manager
+Projekt 1 – Task Manager
 
-Jednoduchý konzolový program pro správu úkolů. Uživatel může úkoly přidávat, zobrazovat, mazat a ukončit program pomocí hlavního menu.
+Engeto Python Akademie
 
-## Funkce
-- **hlavni_menu()** – nabídka voleb 1–4, kontrola vstupu  
-- **pridat_ukol()** – přidání úkolu (název + popis, neprázdný vstup)  
-- **zobrazit_ukoly()** – výpis všech úkolů  
-- **odstranit_ukol()** – smazání vybraného úkolu podle čísla  
+1. Popis projektu
 
-## Testovací případy
-Součástí projektu jsou testovací scénáře pro všechny funkce – pozitivní, negativní a hraniční testy.
+Projekt implementuje jednoduchý správce úkolů ovládaný z konzole.
+Uživatel může úkoly přidávat, zobrazovat a mazat. Program pracuje se seznamem úkolů uloženým v paměti.
 
-## Spuštění
-```bash
+Součástí projektu je také sada testovacích scénářů, které ověřují správné fungování jednotlivých funkcí.
+
+2. Funkce programu
+hlavni_menu()
+
+zobrazuje nabídku možností
+
+validuje uživatelský vstup
+
+volá odpovídající funkce podle volby
+
+pridat_ukol()
+
+přidání nového úkolu
+
+kontrola neprázdného názvu i popisu
+
+zobrazit_ukoly()
+
+výpis všech uložených úkolů
+
+informace o jejich pořadí, názvu a popisu
+
+odstranit_ukol()
+
+odstranění úkolu dle čísla v seznamu
+
+kontrola platného vstupu
+
+3. Testovací scénáře
+
+Projekt obsahuje testovací případy pokrývající:
+
+pozitivní scénáře (správné vstupy)
+
+negativní scénáře (neplatné vstupy, prázdné řetězce apod.)
+
+hraniční hodnoty (poslední/ první úkol, prázdný seznam)
+
+Testy ověřují, že program reaguje správně na různé uživatelské volby a vstupy.
+
+4. Spuštění programu
 python Projekt_1-Task_Manager.py
-```
 
-## Autor
+5. Autor
+
 Renata Filáková
-
